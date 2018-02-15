@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IrrationalNumberCalculator", "IrrationalNumberCalculator\IrrationalNumberCalculator.csproj", "{36D4BBF2-ECAC-4306-8D51-0391B23CB7CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36D4BBF2-ECAC-4306-8D51-0391B23CB7CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36D4BBF2-ECAC-4306-8D51-0391B23CB7CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36D4BBF2-ECAC-4306-8D51-0391B23CB7CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36D4BBF2-ECAC-4306-8D51-0391B23CB7CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E45BF5E-4E0F-4C0B-98D3-8BE2722CF3CE}
+	EndGlobalSection
+EndGlobal
