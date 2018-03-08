@@ -8,8 +8,20 @@ namespace MathStuff
     {
         static void Main(string[] args)
         {
-            const int digitsToCalculate = 100;
+            int digitsToCalculate;
+            while (true)
+            {
+                Console.WriteLine();
+                Console.Write("How many digits do you want to calculate for PI and e? ");
+                string number = Console.ReadLine();
+                if (int.TryParse(number, out digitsToCalculate) && digitsToCalculate > 0)
+                {
+                    break;
+                }
+                Console.WriteLine($"{number} does not appear to be a positive number");
+            }
 
+            Console.WriteLine();
             Console.WriteLine("***************************************************");
             Console.WriteLine($"Calculating PI to {digitsToCalculate} places...");
             Console.WriteLine("***************************************************");
