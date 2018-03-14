@@ -28,7 +28,7 @@ namespace MathStuff
             CalculatePi(digitsToCalculate);
 
             Console.WriteLine();
-            Console.WriteLine("Press Enter to calculate e");
+            Console.Write("Press Enter to calculate e ");
             Console.ReadLine();
 
             Console.WriteLine();
@@ -37,6 +37,8 @@ namespace MathStuff
             Console.WriteLine("***************************************************");
             CalculateEulersNumberE(digitsToCalculate);
 
+            Console.WriteLine();
+            Console.Write("Press Enter to exit ");
             Console.ReadLine();
         }
 
